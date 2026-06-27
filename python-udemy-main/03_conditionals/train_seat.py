@@ -1,5 +1,19 @@
-seat_type = input("Enter seat type (sleeper/AC/general/luxury)").lower()
+# seat_type = input("Enter seat type (sleeper/AC/general/luxury)").lower()
 
+
+# match seat_type:
+#     case "sleeper":
+#         print("Sleeper - No AC, beds available")
+#     case "ac":
+#         print("AC - Air conditioned, comfy ride")
+#     case "general":
+#         print("General - Cheapest option, no reservation")
+#     case "luxury":
+#         print("Luxury - Premium seats with meals")
+#     case _:
+#         print("Invalid seat type")
+
+seat_type = input("Enter seat type (sleeper/AC/general/luxury)").lower()
 
 match seat_type:
     case "sleeper":
@@ -8,7 +22,7 @@ match seat_type:
         print("AC - Air conditioned, comfy ride")
     case "general":
         print("General - Cheapest option, no reservation")
-    case "luxury":
+    case "luxurysl":
         print("Luxury - Premium seats with meals")
     case _:
         print("Invalid seat type")

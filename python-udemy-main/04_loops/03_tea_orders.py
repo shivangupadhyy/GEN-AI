@@ -1,4 +1,8 @@
 orders = ["hitesh", "Aman", "Becky", "Carlos"]
 
+# for name in orders:
+#     print(f"Order ready for {name}")
+
+
 for name in orders:
-    print(f"Order ready for {name}")
+    print(f"order ready for {name}")
