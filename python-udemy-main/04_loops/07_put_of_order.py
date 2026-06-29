@@ -1,5 +1,17 @@
-flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
+# flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
 
+
+# for flavour in flavours:
+#     if flavour == "Out of Stock":
+#         continue
+#     if flavour == "Discontinued":
+#         print(f"{flavour} item found")
+#         break
+#     print(f"{flavour} item found")
+    
+# print(f"Out side of loop")
+
+flavours  = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
 
 for flavour in flavours:
     if flavour == "Out of Stock":
@@ -9,4 +21,5 @@ for flavour in flavours:
         break
     print(f"{flavour} item found")
     
-print(f"Out side of loop")
+    
+print(f"Out side of loop")        
